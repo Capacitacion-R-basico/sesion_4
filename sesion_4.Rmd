@@ -29,7 +29,7 @@ class: center, middle
 
 ## Procesamiento de bases de datos (3)
 
-### Noviembre 2020
+### Abril 2021
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = TRUE)
@@ -1394,4 +1394,4 @@ class: center, middle
 
 ## Procesamiento de bases de datos (3)
 
-### Noviembre 2020
+### Abril 2021
