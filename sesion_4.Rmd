@@ -530,7 +530,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 1 
+# Ejercicio express 1 
 
 ## Ahora ustedes...
 
@@ -565,7 +565,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 1 
+# Ejercicio express 1 
 
 --
 
@@ -594,7 +594,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 1: solución
+# Ejercicio express 1: solución
 
 --
 
@@ -964,7 +964,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 2
+# Ejercicio express 2
 
 --
 <br/>
@@ -987,7 +987,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 2: solución
+# Ejercicio express 2: solución
 
 --
 
@@ -1201,7 +1201,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 3
+# Ejercicio express 3
 
 --
 <br/>
@@ -1233,7 +1233,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Mini-ejercicio 3
+# Ejercicio express 3
 
 
 1- Generar "dif_days".
@@ -1306,7 +1306,7 @@ background-position: 100% 0%
 
 --
 
-En el archivo "nacimientos.rar" que se encuentra disponible en la carpeta **'data/tarea' en la sesion 4 de nuestro canal en Teams (Generación II)**, encontrarán las siguientes bases de datos:
+En el archivo "nacimientos.rar" que se encuentra disponible en la carpeta **'data/tarea' en la sesion 4 de nuestro canal en Teams**, encontrarán las siguientes bases de datos:
 
 --
 
