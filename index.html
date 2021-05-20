@@ -4,7 +4,7 @@
     <title>Capacitación en R y herramientas de productividad</title>
     <meta charset="utf-8" />
     <meta name="author" content="" />
-    <meta name="date" content="2021-04-07" />
+    <meta name="date" content="2021-05-20" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -26,7 +26,7 @@ class: center, middle
 
 ## Procesamiento de bases de datos (3)
 
-### Abril 2021
+### Mayo 2021
 
 
 
@@ -187,7 +187,7 @@ background-position: 100% 0%
 
 --
 
-Como .pur[intuición básica], los joins .medium-par-red[combinan] dos data frames agregando columnas de uno al otro.
+Como .pur[intuición básica], los joins permiten .medium-par-red[combinar] dos data frames.
 
 --
 
@@ -223,8 +223,14 @@ Entonces, .pur[a modo de contexto], veamos los tipos de `joins` que existen.
 
 --
 
-.center[
-&lt;img src="imagenes/join_dplyr.PNG" width="400" /&gt;
+.pull-left[
+&lt;img src="imagenes/joins_dplyr_nuevo1.PNG" width="300" /&gt;
+]
+
+--
+
+.pull-rigth[
+&lt;img src="imagenes/joins_dplyr_nuevo2.PNG" width="300" /&gt;
 ]
 
 --
@@ -690,7 +696,7 @@ background-position: 100% 0%
 
 --
 
-hasta ahora no se ha mencionado la forma más sencilla de unir 2 *data frames*.
+Hasta ahora no se ha mencionado la forma más sencilla de unir 2 *data frames*.
 
 --
 
@@ -891,13 +897,6 @@ mi_cumple &lt;- as.Date("12-06-1985"); str(mi_cumple)
 
 ```r
 library(anytime)
-```
-
-```
-## Warning: package 'anytime' was built under R version 4.0.3
-```
-
-```r
 mi_cumple &lt;- as.Date(anydate("12-06-1985")); str(mi_cumple) 
 ```
 
@@ -940,7 +939,7 @@ Sys.Date() # La fecha de hoy
 ```
 
 ```
-## [1] "2021-04-07"
+## [1] "2021-05-20"
 ```
 
 ```r
@@ -948,8 +947,10 @@ Sys.time() # el momento exacto, con fecha, horas, minutos y segundos
 ```
 
 ```
-## [1] "2021-04-07 23:07:39 -04"
+## [1] "2021-05-20 16:27:18 -04"
 ```
+
+**Nota:** El -4 refiere a la diferencia con GMT - Greenwich Mean Time
 
 ---
 
@@ -957,7 +958,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Manejo de fechas con `lubruidate`
+# Manejo de fechas con `lubridate`
 
 --
 
@@ -972,7 +973,7 @@ today()
 ```
 
 ```
-## [1] "2021-04-07"
+## [1] "2021-05-20"
 ```
 
 ```r
@@ -980,7 +981,7 @@ now()
 ```
 
 ```
-## [1] "2021-04-07 23:07:39 -04"
+## [1] "2021-05-20 16:27:18 -04"
 ```
 
 --
@@ -1001,7 +1002,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Manejo de fechas con `lubruidate`
+# Manejo de fechas con `lubridate`
 
 --
 
@@ -1270,7 +1271,7 @@ today() - ymd("1985-06-12")
 ```
 
 ```
-## Time difference of 13083 days
+## Time difference of 13126 days
 ```
 
 --
@@ -1296,7 +1297,7 @@ today() + years(1) + months(1)
 ```
 
 ```
-## [1] "2022-05-07"
+## [1] "2022-06-20"
 ```
 
 ---
@@ -1660,7 +1661,7 @@ class: center, middle
 
 ## Procesamiento de bases de datos (3)
 
-### Abril 2021
+### Mayo 2021
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

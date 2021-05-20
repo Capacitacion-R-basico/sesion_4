@@ -29,7 +29,7 @@ class: center, middle
 
 ## Procesamiento de bases de datos (3)
 
-### Abril 2021
+### Mayo 2021
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = TRUE)
@@ -200,7 +200,7 @@ background-position: 100% 0%
 
 --
 
-Como .pur[intuición básica], los joins .medium-par-red[combinan] dos data frames agregando columnas de uno al otro.
+Como .pur[intuición básica], los joins permiten .medium-par-red[combinar] dos data frames.
 
 --
 
@@ -236,8 +236,14 @@ Entonces, .pur[a modo de contexto], veamos los tipos de `joins` que existen.
 
 --
 
-.center[
-<img src="imagenes/join_dplyr.PNG" width="400" />
+.pull-left[
+<img src="imagenes/joins_dplyr_nuevo1.PNG" width="300" />
+]
+
+--
+
+.pull-rigth[
+<img src="imagenes/joins_dplyr_nuevo2.PNG" width="300" />
 ]
 
 --
@@ -622,7 +628,7 @@ background-position: 100% 0%
 
 --
 
-hasta ahora no se ha mencionado la forma más sencilla de unir 2 *data frames*.
+Hasta ahora no se ha mencionado la forma más sencilla de unir 2 *data frames*.
 
 --
 
@@ -795,7 +801,7 @@ mi_cumple <- as.Date("12-06-1985"); str(mi_cumple)
 
 --
 
-```{r}
+```{r, warning=F, message= F}
 library(anytime)
 mi_cumple <- as.Date(anydate("12-06-1985")); str(mi_cumple) 
 ```
@@ -834,13 +840,15 @@ Sys.Date() # La fecha de hoy
 Sys.time() # el momento exacto, con fecha, horas, minutos y segundos
 ```
 
+**Nota:** El -4 refiere a la diferencia con GMT - Greenwich Mean Time
+
 ---
 
 background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Manejo de fechas con `lubruidate`
+# Manejo de fechas con `lubridate`
 
 --
 
@@ -872,7 +880,7 @@ background-image: url("imagenes/fondo2.PNG")
 background-size: contain;
 background-position: 100% 0%
 
-# Manejo de fechas con `lubruidate`
+# Manejo de fechas con `lubridate`
 
 --
 
@@ -1394,4 +1402,4 @@ class: center, middle
 
 ## Procesamiento de bases de datos (3)
 
-### Abril 2021
+### Mayo 2021
