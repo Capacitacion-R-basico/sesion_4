@@ -579,7 +579,7 @@ Utilizando las bases `artists` y `bands`.
 
 --
 
-1- Generar una base de datos que contenga *first* (nombre), *last* (apellido) y la banda (*band*), para **todos** los artistas presentes en la base `artists`.
+1- Generar una base de datos que contenga *first* (nombre), *last* (apellido), *instrument* (instrumento) y la banda (*band*), para **todos** los artistas presentes en la base `artists`.
 
 --
 
